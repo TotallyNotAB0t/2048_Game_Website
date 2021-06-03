@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mon Projet</title>
+  <link rel="stylesheet" href="MonStyle.css">
+</head>
+
+  <body>
+    <div class="navigation">
+      <a href="Accueil.html">Accueil</a>
+      <a href="Règles.html">Règles</a>
+      <a href="MonProjet.html">Mon Projet</a>
+	  <audio controls>
+		<source src="music.mp3" type="audio/mp3">
+	  </audio>
+    </div>
+    <div class="mon_projet">
+      <h1 class="titre_mon_projet">Mon Projet :</h1>
+      <p class="sous-titre-MP">La page mon projet consiste à vous expliquer comment a été codé le 2048, en présentant les principales fonctions utilisées par le programme.<br>Voici la première fonction utilisée : Init. Son rôle est de placer aléatoirement des deux et des 4 sur la grille.</p>
+      <div class="image-MP">
+        <img class="image-code" src="images/init.png" alt="Fonction Init">
+      </div>
+      <p class="sous-titre-MP">La seconde fonction utilisée est ajouter_deux. Elle permet d'ajouter un deux après chaque mouvement.</p>
+      <div class="image-MP">
+        <img class="image-code" src="images/ajouter_deux.png" alt="Fonction ajouter_deux">
+      </div>
+      <p class="sous-titre-MP">TestFin vérifie l'état du jeu après chaque mouvement. Si une tuile est égale à 2048, le jeu s'arrête. Si au moins une des tuiles est égale à 0, on continue de jouer.</p>
+      <div class="image-MP">
+        <img class="image-code" src="images/Testfin.png" alt="Fonction TestFin">
+      </div>
+      <p class="sous-titre-MP">ActionHaut, ActionBas, ActionGacuhe, ActionDroite permettent de déplacer les tuiles, et ensuite de les additionner. Pour ne pas qu'il n'y ai de trous dans la grille après l'addition, on redéplace les cases.</p>
+      <div class="image-MP">
+        <img class="image-code" src="images/ActionHaut.png" alt="Fonction ActionHaut">
+      </div>
+      <p class="sous-titre-MP">La fonction Fenêtre utilise la bibliothèque TKinter qui affiche une fenêtre dans laquelle le 2048 est dessiné. Elle a été donnée par monsieur Hébert, et je ne l'ai pas modifiée.</p>
+    </div>
+    
+  </body>
+
+</html>

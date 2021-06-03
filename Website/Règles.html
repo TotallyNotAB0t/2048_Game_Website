@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Les règles du jeu 2048</title>
+  <link rel="stylesheet" href="MonStyle.css">
+</head>
+
+<body>
+  <div class="navigation">
+    <a href="Accueil.html">Accueil</a>
+    <a href="Règles.html">Règles</a>
+    <a href="MonProjet.html">Mon Projet</a>
+	<audio controls>
+		<source src="music.mp3" type="audio/mp3">
+	</audio>
+  </div>
+  <div id="explications">
+    <h1>Comment jouer au jeu :</h1>
+    <p>Il faut jouer avec les touches directionnelles du clavier. Appuyer sur → décalera toutes les cases du tableau vers la droite. Appuyer sur ↓ les décalera vers le bas, et ainsi de suite.
+	<br> Lorsque deux chiffres de la même valeurs se rencontrent, ils s'additionnent.
+	<br><br> Exemple: on a le tableau de gauche sur notre écran. En appuyant sur ↓, les deux vont se diriger vers le bas, et fusionner en un 4. On voit apparaître le tableaux de droite sur notre écran.
+	<br>Le but est de faire un 2048 avec les cases. Bonne chance !</p>
+  </div>
+  <div class="deuxTableaux">
+    <div class="premierTableau">
+      <div class="game-container">
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+        </div>
+        <div class="tile-container">
+          <div class="tile tile-2 tile-position-2-1 tile-new">
+            <div class="tile-inner">2</div>
+          </div>
+          <div class="tile tile-2 tile-position-2-3 tile-new">
+            <div class="tile-inner">2</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="deuxiemeTableau">
+      <div class="game-container">
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+        </div>
+
+        <div class="tile-container">
+          <div class="tile tile-4 tile-position-2-4">
+            <div class="tile-inner">4</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
